@@ -1,6 +1,6 @@
 # Структура данных машины
 class Car:
-    def __init__(self, brand, model, color, transmission, engine, state, headlights, doors):
+    def __init__(self, brand, model, color, transmission, engine, state, headlights, doors, people):
         self.brand = brand
         self.model = model
         self.color = color
@@ -9,3 +9,4 @@ class Car:
         self.state = state
         self.headlights = headlights
         self.doors = doors
+        self.people = people
